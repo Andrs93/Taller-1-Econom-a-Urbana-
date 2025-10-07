@@ -1,7 +1,6 @@
 ###############################################################################
 # Economía Urbana - Taller 1
 # Ejercicio 1 - Construción indices
-#Autores: Juan Camilo Arévalo, Andrés Serrano y Juan Felipe Duarte
 ###############################################################################
 # Primero descargamos librerias necesarias
 library(dplyr)
