@@ -9,7 +9,7 @@ En el  marco del curso **Economía Urbana** encontrara el siguiente repertorio c
   - Modelo de **Efectos Fijos (FE)**
  
   
-Para este primer punto, los codigos así nombrados se diseñan para ser utilizados para crear como producto principal dos graficas que presentan de manera sencilla como se comportan los indices a lo largo del tiempo, tanto en niveles como en logaritmos. Si es de su interes tiene a su dispocicion las tablas empleadas para la realización de ese indice, como la información detallada de las regreciones(OLS-FE) y de las variables omitidas e incluidas en los analisis. 
+Para este primer punto, los codigos así nombrados se diseñan para ser utilizados para crear como producto principal dos graficas que presentan de manera sencilla como se comportan los indices a lo largo del tiempo, tanto en niveles como en logaritmos. Si es de su interes tiene a su dispocicion las tablas empleadas para la realización de ese indice, como la información detallada de las regreciones(OLS-FE, metodos de cluster y efectos fijos) y de las variables omitidas e incluidas en los analisis. 
 
 Para replicar los codigos del punto 1 se necesita, en primer lugar, tener en la carpeta de su repertorio la base de datos "dataTaller01_PriceIndeces.Rds" y, en segundo, correr el codigo en su consola. Al terminar este proceso, tendra como resultado a su dispocición las graficas y las tablas empleadas en el informe del punto 1.
 
