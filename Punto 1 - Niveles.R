@@ -63,7 +63,7 @@ modelo_repeat_sales <- feols(
 )
 
 # ===============================
-# 4. Modelo de Efectos Fijos (FE sin clustering)
+# 4. Modelo de Efectos Fijos (FE)
 # ===============================
 modelo_fe_niveles <- feols(
   sale_price ~ factor(year) +
