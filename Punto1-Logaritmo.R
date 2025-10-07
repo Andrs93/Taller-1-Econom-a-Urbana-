@@ -1,13 +1,20 @@
+###############################################################################
+# Economía Urbana - Taller 1
+# Ejercicio 1 - Construción indices
+#Autores: Juan Camilo Arévalo, Andrés Serrano y Juan Felipe Duarte
+###############################################################################
+# Primero descargamos librerias necesarias
 library(dplyr)
 library(fixest)
 library(ggplot2)
 library(readr)
 
 
-
+#Importamos el Database 
 # ===============================
 data <- readRDS("dataTaller01_PriceIndeces.Rds")
 
+#Eliminamos mising values por año y precio;convertimos precio a logaritmo
 data <- data %>%
   filter(!is.na(sale_price), !is.na(year)) %>%
   mutate(log_price = log(sale_price))
@@ -65,7 +72,7 @@ modelo_fe_log <- feols(
     factor(porch) + factor(central_air) | pin,
   data = data
 )
-
+## actualizamos el modelo teniendo en cuenta problemas de colinialidad
 # ===============================
 # 3. Variables omitidas
 # ===============================
@@ -87,6 +94,7 @@ omitidas <- data.frame(
 ) %>%
   mutate(Omitida = ifelse(Missing > 0 | Unicos == 1, "Sí", "No"))
 
+                  
 # ===============================
 # 4. Índices de precios
 # ===============================
