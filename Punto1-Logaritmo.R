@@ -3,8 +3,13 @@
 # Ejercicio 1 - Construción indices
 ###############################################################################
 # Primero descargamos librerias necesarias
-library(dplyr)
+library(tidyverse)
 library(fixest)
+library(sandwich)
+library(lmtest)
+library(clubSandwich)
+library(Matrix)
+library(dplyr)
 library(ggplot2)
 library(readr)
 
