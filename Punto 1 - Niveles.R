@@ -17,7 +17,6 @@ library(readr)
 # ===============================
 # 1. Cargar y preparar datos
 # ===============================
-# Asegúrate de ajustar la ruta si el CSV está en otra carpeta
 data <- readRDS("dataTaller01_PriceIndeces.Rds")
 
 # Eliminar valores faltantes en las variables clave
