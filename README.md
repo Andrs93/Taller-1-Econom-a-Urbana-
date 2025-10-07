@@ -9,7 +9,7 @@ En el  marco del curso **Economía Urbana** encontrara el siguiente repertorio c
   - Modelo de **Efectos Fijos (FE)**
  
   
-el primer punto refiriendoce a los codigos utilizados para crear como producto principal dos graficas que presentan de manera sencilla como se comportan los indices, tanto en niveles como en logaritmos. Por otro lado el pundo se refiere al codigo empleado para dar cuenta de la integración de datos espaciales de Bogotá con características inmobiliarias,, al análisis de gradientes de precios respecto al centro urbano, a la estimación de efectos de proximidad a parques y plazas. Y la Exportación de resultados y visualizaciones espaciales. 
+Para este primer punto, los codigos así nombrados se diseñan para ser utilizados para crear como producto principal dos graficas que presentan de manera sencilla como se comportan los indices, tanto en niveles como en logaritmos. Por otro lado el pundo se refiere al codigo empleado para dar cuenta de la integración de datos espaciales de Bogotá con características inmobiliarias,, al análisis de gradientes de precios respecto al centro urbano, a la estimación de efectos de proximidad a parques y plazas. Y la Exportación de resultados y visualizaciones espaciales. 
 
 Para replicar los codigos del punto 1 se necesita, en primer lugar, tener en la carpeta de su repertorio la base de datos "dataTaller01_PriceIndeces.Rds" y, en segundo, correr el codigo en su consola. Al terminar este proceso, tendra como resultado a su dispocición las graficas y las tablas empleadas en el informe del punto 1.
 
