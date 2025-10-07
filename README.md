@@ -9,7 +9,7 @@ En el  marco del curso **Economía Urbana** encontrara el siguiente repertorio c
   - Modelo de **Efectos Fijos (FE)**
  
   
-Para este primer punto, los codigos así nombrados se diseñan para ser utilizados para crear como producto principal dos graficas que presentan de manera sencilla como se comportan los indices a lo largo del tiempo, tanto en niveles como en logaritmos. Si es de su interes tiene a su dispocicion las tablas empleadas para la realización de ese indice, como la información detallada de las regreciones(OLS-FE, metodos de cluster y efectos fijos) y de las variables omitidas e incluidas en los analisis. 
+Para este primer punto, se deberán ejecutar los códigos "Punto 1_Logaritmos.R" y "Punto 1_Niveles.R", para poder exportar dos gráficas que presentan, de manera sencilla, el comportamiento de los índices a lo largo del tiempo, tanto en logaritmos como en niveles, respectivamente. Si es de su interés, también está incluido, y para su disposición, las tablas empleadas para la realización de ese indice, como la información detallada de las regreciones (OLS-FE, metodos de cluster y efectos fijos) y de las variables omitidas e incluidas en los analisis. 
 
 Para replicar los codigos del punto 1 se necesita, en primer lugar, tener en la carpeta de su repertorio la base de datos "dataTaller01_PriceIndeces.Rds" y, en segundo, correr el codigo en su consola. Al terminar este proceso, tendra como resultado a su dispocición las graficas y las tablas empleadas en el informe del punto 1.
 
@@ -25,6 +25,6 @@ Para replicar los codigos del punto 1 se necesita, en primer lugar, tener en la 
 
 El ejercicio integra análisis espacial y econométrico para estimar cómo los espacios abiertos (parques y plazas) influyen en los precios de vivienda en Bogotá. Se combinan datos catastrales, inmobiliarios y de OSM para medir cercanía al CBD y a amenidades, se analizan gradientes urbanos de precios y densidad mediante LOESS, y se estiman modelos hedónicos (OLS-FE), SFD y Conley, encontrando que los precios disminuyen cerca de 3,3 % por cada kilómetro adicional de distancia a un parque.
 
-Asimismo, para la realización del punto 2, es necesario descargar dentro de su carpeta las siguientes carpetas adicionales: Primero, carpeta "Data" con las subcarpetas "Raw" y "Modified". Dentro de esta carpeta deberá estar el archivo "dataTaller01_Amenidades.Rds" junto con bases de datos complementarias necesarias para el análisis. Por último, deberá crear en su directorio la carpeta "Outputs", para que todas las exportaciones de gráficas y tablas del punto 2 terminen dentro de esta carpeta.
+Para la realización del punto 2, es necesario ejecutar el código "Punto 2.R" adjunto en este repositorio. Además, se debe revisar el archivo "Data Punto 2", donde adjunto se encuentra el link de OneDrive con la carpeta a descargar con toda la Data utilizada para el correcto desarrollo de este análisis. Esta carpeta se debe añadir dentro de su directorio. Por último, deberá crear en su directorio la carpeta "Outputs", para que todas las exportaciones de gráficas y tablas del punto 2 terminen dentro de esta carpeta y no tenga errores de replicación.
 
 
